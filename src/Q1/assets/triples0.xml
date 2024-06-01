@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<triples>
+    <triple>
+        <subject type="STRING">I</subject>
+        <predicate type="STRING">am</predicate>
+        <object type="STRING">the_exam</object>
+    </triple>
+</triples>

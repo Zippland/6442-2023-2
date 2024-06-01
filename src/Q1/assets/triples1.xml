@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<triples>
+    <triple>
+        <subject type="STRING">http://samoyed.au/Penguin</subject>
+        <predicate type="STRING">is_the</predicate>
+        <object type="STRING">cutest_animal_in_the_world</object>
+    </triple>
+    <triple>
+        <subject type="STRING">http://example.org/I</subject>
+        <predicate type="STRING">http://xmlns.com/foaf/0.1/love</predicate>
+        <object type="STRING">exams</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">http://example.org/I</subject>
+        <predicate type="STRING">http://xmlns.com/foaf/0.1/am</predicate>
+        <object type="STRING">fine</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">http://example.org/I</subject>
+        <predicate type="STRING">http://xmlns.com/foaf/0.1/am</predicate>
+        <object type="STRING">alright</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">Mary</subject>
+        <predicate type="STRING">http://xmlns.com/foaf/0.1/had_a</predicate>
+        <object type="STRING">little_lamp</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">http://example.org/You</subject>
+        <predicate type="STRING">http://xmlns.com/foaf/0.1/are</predicate>
+        <object type="STRING">100</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">http://example.org/I</subject>
+        <predicate type="STRING">http://xmlns.com/foaf/0.1/am</predicate>
+        <object type="STRING">good</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">I</subject>
+        <predicate type="STRING">AM</predicate>
+        <object type="STRING">fine</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">I</subject>
+        <predicate type="STRING">AM</predicate>
+        <object type="STRING">alright</object>
+    </triple>
+
+    <triple>
+        <subject type="STRING">CECCStudent</subject>
+        <predicate type="STRING">ex:hasProperty</predicate>
+        <object type="STRING">cool</object>
+    </triple>
+</triples>
