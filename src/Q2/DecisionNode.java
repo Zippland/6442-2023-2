@@ -16,8 +16,11 @@ public class DecisionNode extends Node {
     public String classify(Spider spider) {
         // TODO - Your Code Starts Here (Q2a)
         // TODO - Note: you may implement this function and/or classify in the superclass
-
-        return null; // TODO replace this line
+        if (spider.testProperty(testsFor)){
+            return yesOutcome.classify(spider);
+        } else {
+            return noOutcome.classify(spider);
+        }
         // TODO - Your Code END Here
     }
 
@@ -27,10 +30,27 @@ public class DecisionNode extends Node {
         // TODO - Your Code Starts Here (Q2b)
         // You may create helper functions in any of the Node classes
         // You may wish to use the method Spider.propertyToString
-
-        return null; // TODO replace this line
+        return toStringHelp(0).trim(); // TODO replace this line
         // TODO - Your Code END Here
     }
+
+    public String toStringHelp(int level){
+        String result = Spider.propertyToString(testsFor)+"?\n";
+        for(int i = 0; i < level; i++){
+            result += "| ";
+        }
+        result += "| Yes: " + yesOutcome.toStringHelp(level+1);
+        for(int i = 0; i < level; i++){
+            result += "| ";
+        }
+        result += "| No: " + noOutcome.toStringHelp(level+1);
+        return result;
+    }
+
+
+
+
+
 
 
 
