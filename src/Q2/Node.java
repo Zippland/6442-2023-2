@@ -12,4 +12,7 @@ public abstract class Node {
         // TODO - Your Code END Here
     }
 
+    protected String toStringHelp(int level) {
+        return "";
+    }
 }
